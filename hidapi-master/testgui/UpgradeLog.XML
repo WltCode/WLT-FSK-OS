@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="testgui">
+</Property><Property Name="解决方案文件" Value="C:\Users\YOAA\Desktop\hidapi-master\testgui\testgui.sln">
+</Property><Property Name="Date" Value="2017年11月11日">
+</Property><Property Name="Time" Value="12:16">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="testgui.sln" Description="文件已成功备份为 C:\Users\YOAA\Desktop\hidapi-master\testgui\testgui.sln.old">
+</Event><Event ErrorLevel="0" Project="testgui" Source="testgui.vcproj" Description="Converting project file 'C:\Users\YOAA\Desktop\hidapi-master\testgui\testgui.vcproj'.">
+</Event><Event ErrorLevel="1" Project="testgui" Source="testgui.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="testgui" Source="testgui.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\YOAA\Desktop\hidapi-master\testgui\Debug\testgui.exe') does not match the Linker's OutputFile property value 'testgui.exe' ('C:\Users\YOAA\Desktop\hidapi-master\testgui\testgui.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="testgui" Source="testgui.vcproj" Description="MSB8012: $(TargetPath) ('C:\Users\YOAA\Desktop\hidapi-master\testgui\Release\testgui.exe') does not match the Linker's OutputFile property value 'testgui.exe' ('C:\Users\YOAA\Desktop\hidapi-master\testgui\testgui.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="testgui" Source="testgui.vcproj" Description="Done converting to new project file 'C:\Users\YOAA\Desktop\hidapi-master\testgui\testgui.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="testgui" Source="testgui.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="testgui.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="testgui.sln" Description="Converted">
+</Event></UpgradeLog>

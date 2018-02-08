@@ -1,0 +1,28 @@
+
+cd /home/cps/myfile/hidapi-master/mytest
+
+cc -Wall -g -fpic -c -I../hidapi `pkg-config libusb-1.0 --cflags` ../linux/hid.c -o ../linux/hid.o
+
+gcc -Wall -g -fpic -c -I../hidapi `pkg-config libusb-1.0 --cflags` main.c -o main.o
+
+gcc -Wall -g ../linux/hid.o main.o `pkg-config libudev --libs` -lrt -o hidtest-hidraw
+
+sudo ./hidtest-hidraw
+
+
+
+cd /home/cps/myfile/hidapi-master/mytest
+
+cc -Wall -g -fpic -c -I../hidapi `pkg-config libusb-1.0 --cflags` ../libusb/hid.c -o ../libusb/hid.o
+
+gcc -Wall -g -fpic -c -I../hidapi `pkg-config libusb-1.0 --cflags` main.c -o main.o
+
+gcc -Wall -g ../libusb/hid.o main.o `pkg-config libusb-1.0 --libs` -lrt -lpthread -o hidtest-libusb
+
+sudo ./hidtest-libusb
+
+
+
+
+
+
